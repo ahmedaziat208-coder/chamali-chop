@@ -1,0 +1,6 @@
+{
+  "name": "الشمالي شوب – CHAMALI SHOP",
+  "description": "متجر إلكتروني مغربي فاخر متعدد المنتجات مع الدفع عند الاستلام، لوحة إدارة متكاملة، وتكامل WhatsApp Business الرسمي مع المساعد الذكي Gemini AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Cormorant Garamond', 'Cairo', serif;
+    --font-sans: 'Plus Jakarta Sans', 'Cairo', system-ui, sans-serif;
+    --font-arabic: 'Cairo', 'Plus Jakarta Sans', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+  }
+
+  html[dir="rtl"] body {
+    font-family: var(--font-arabic);
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono-tabular {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}
